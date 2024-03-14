@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baúl de Contraseñas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Baúl de Contraseñas</h1>
+        <form id="password-form">
+            <label for="site">Sitio web:</label>
+            <input type="text" id="site" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Guardar contraseña</button>
+        </form>
+        <ul id="password-list">
+            <!-- Aquí se mostrarán las contraseñas almacenadas -->
+        </ul>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+</html>
